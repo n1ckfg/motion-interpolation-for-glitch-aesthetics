@@ -1,7 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Name=glitch-ffmpeg
-Comment=Execute the script with the file dropped
-Exec=gnome-terminal -e "./glitch-ffmpeg.sh \"%u\""
-Icon=utilities-terminal
-Type=Application
