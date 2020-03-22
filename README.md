@@ -1,4 +1,5 @@
 # motion-interpolation-for-glitch-aesthetics
+https://www.hellocatfood.com/motion-interpolation-for-glitch-aesthetics-using-ffmpeg-part-0/
 
 ### Windows
 https://ffmpeg.zeranoe.com/builds/
