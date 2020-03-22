@@ -7,11 +7,14 @@ OUTPUT_NAME="${INPUT_NAME%%.*}"
 
 FPS=25
 
-ME=fss
-#ME=ds
-#ME=hexbs
-#ME=epzs
+MC_MODE=obmc
+#MC_MODE=aobmc
 
-CMD="setpts=62.5*PTS,minterpolate='fps=$FPS:mb_size=16:search_param=400:vsbmc=0:scd=none:mc_mode=obmc:me_mode=bidir:me=$ME'"
+ME=umh
+#ME=esa
+#ME=tss
+#ME=tdls
+
+CMD="setpts=62.5*PTS,minterpolate='fps=$FPS:mb_size=16:search_param=400:vsbmc=0:scd=none:mc_mode=$MODE:me_mode=bidir:me=$ME'"
 
 ffmpeg -i $INPUT_NAME -filter:v $CMD "$OUTPUT_NAME"_glitch.mp4
