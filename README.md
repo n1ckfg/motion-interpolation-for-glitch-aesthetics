@@ -5,7 +5,7 @@ https://www.hellocatfood.com/motion-interpolation-for-glitch-aesthetics-using-ff
 https://ffmpeg.zeranoe.com/builds/
 
 ### Mac
-https://brew.sh/
+https://brew.sh/ <br>
 brew install ffmpeg
 
 ### Linux (Ubuntu)
