@@ -15,6 +15,6 @@ ME=umh
 #ME=tss
 #ME=tdls
 
-CMD="setpts=62.5*PTS,minterpolate='fps=$FPS:mb_size=16:search_param=400:vsbmc=0:scd=none:mc_mode=$MODE:me_mode=bidir:me=$ME'"
+CMD="setpts=62.5*PTS,minterpolate='fps=$FPS:mb_size=16:search_param=400:vsbmc=0:scd=none:mc_mode=$MC_MODE:me_mode=bidir:me=$ME'"
 
 ffmpeg -i $INPUT_NAME -filter:v $CMD "$OUTPUT_NAME"_glitch.mp4
