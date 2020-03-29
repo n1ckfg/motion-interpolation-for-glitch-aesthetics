@@ -8,9 +8,9 @@ OUTPUT_NAME="${INPUT_NAME%%.*}"
 FPS=25
 
 ME=esa
-#set ME=tss
-#set ME=tdls
-#set ME=ntss
+#ME=tss
+#ME=tdls
+#ME=ntss
 
 CMD="setpts=62.5*PTS,minterpolate='fps=$FPS:mb_size=16:search_param=400:vsbmc=0:scd=none:mc_mode=obmc:me_mode=bidir:me=$ME'"
 
