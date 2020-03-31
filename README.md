@@ -11,9 +11,9 @@ https://ffmpeg.zeranoe.com/builds/
 *Mac batch files need an <a href="https://apple.stackexchange.com/questions/91285/how-do-i-make-a-bash-script-so-that-i-can-drag-its-input-on-top-of-the-icon">AppleScript wrapper</a> for drag-drop.*<br>
 Get ffmpeg: <br>
 https://brew.sh/ <br>
-brew install ffmpeg
+`brew install ffmpeg`
 
 ### Linux (Ubuntu)
 *Note that Linux and Mac can (usually) share the same shell scripts.*<br>
 Get ffmpeg: <br>
-sudo apt-get install ffmpeg
+`sudo apt-get install ffmpeg`
